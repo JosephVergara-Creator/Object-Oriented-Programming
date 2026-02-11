@@ -1,17 +1,15 @@
-public class EjercicioResueltoN5 {
+public class Edades {
+public static double calcular_edalber(double edjuan){
+        double edalber = 2 * edjuan/3;
+        return edalber;
+}
+public static double calcuar_edana(double edjuan){
+        double edana = 4 * edjuan/3;
+        return edana;
+}
+public static double calcular_edmama(double edjuan, double edalber, double edana){
+    double edmama = edjuan + edalber + edana;
+    return edmama;
+}
 
-    public static void main(String[] args) {
-        double suma, x, y;
-        suma = 0;
-        x = 20;
-        y = 40;
-        
-        suma += x;
-        x += Math.pow(y, 2);
-        suma += x/y;
-        
-        System.out.println("El valor de x es : " + x);
-        System.out.println("El valor de y es : " + y);
-        System.out.println("El valor de la suma es: " + suma);
-    }
 }
